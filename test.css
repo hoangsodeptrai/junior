@@ -49,7 +49,7 @@
 }
 .item-1:hover {
 	color: rgb(238, 124, 124);
-    text-decoration: none; /* Bỏ gạch dưới */
+	text-decoration: none;
 }
 .item-right {
 	display: flex;
@@ -61,7 +61,7 @@
 	height: 18.5px;
 }
 .ig-icon {
-	width: 20px;
+	width: 30px;
 	margin-right: 20px;
 	height: 16px;
 	transition: color 0.3s; /* Hiệu ứng chuyển màu mượt */
@@ -69,5 +69,5 @@
 }
 .ig-icon:hover {
 	color: rgb(204, 210, 27);
-    
+	text-decoration: none;
 }
