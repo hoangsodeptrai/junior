@@ -1,0 +1,73 @@
+.header-on {
+	height: 121.94px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-inner {
+	height: 41.938px;
+	width: 1187px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.icon {
+	width: 120px;
+	height: 41.94px;
+}
+.header-left {
+	width: 120px;
+}
+.header-right {
+	width: 765.594px;
+
+	/* position: absolute;
+	bottom: 40.964px;
+	top: 60.969px;
+	left: 545.406px;
+	right: 0px; */
+	height: 20px;
+	display: flex;
+
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+}
+.header-right ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.item-1 {
+	text-decoration: none; /* Bỏ gạch dưới */
+	font-weight: bold; /* In đậm chữ */
+	color: black; /* Màu mặc định */
+	transition: color 0.3s; /* Hiệu ứng chuyển màu mượt */
+	margin-left: 40px;
+}
+.item-1:hover {
+	color: rgb(238, 124, 124);
+    text-decoration: none; /* Bỏ gạch dưới */
+}
+.item-right {
+	display: flex;
+	justify-content: flex-end;
+	width: 480px;
+}
+.item-2 {
+	width: 32.61px;
+	height: 18.5px;
+}
+.ig-icon {
+	width: 20px;
+	margin-right: 20px;
+	height: 16px;
+	transition: color 0.3s; /* Hiệu ứng chuyển màu mượt */
+	color: #000;
+}
+.ig-icon:hover {
+	color: rgb(204, 210, 27);
+    
+}
